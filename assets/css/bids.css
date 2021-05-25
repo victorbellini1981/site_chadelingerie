@@ -1,0 +1,335 @@
+@media screen and (min-width: 800px) {
+    .tab {
+        width: 48%;
+        margin: 1%;
+        display: block !important;
+    }
+    .tabs {
+        display: inline-flex;
+        /* margin-top: 5vh; */
+        background: rgba(5, 5, 5, 0.3);
+        padding: 5px;
+        padding-right: 15px;
+        padding-top: 0;
+        width: 100%;
+    }
+    .tituloGrande {
+        color: white;
+        font-weight: bold;
+        font-size: xx-large;
+        text-align: center;
+        margin: 2vh 0;
+    }
+    #app-bar {
+        background: #1f4c75 !important;
+    }
+    #sec-bids {
+        height: 100vh !important;
+        padding-top: 50px;
+        padding-left: 3%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-right: 3%;
+        background-image: url("../../imgs/fundoparceiros.png");
+    }
+    .card {
+        min-width: 45vw !important;
+        padding: 4px !important;
+        width: 100%;
+        display: table;
+        margin: 5px!important;
+        border-collapse: separate;
+        border-spacing: 5px;
+    }
+    .row {
+        width: 100%;
+        margin: 0;
+    }
+    .rowlinha {
+        margin: 1vh 0;
+        display: table-row;
+    }
+    .col-30 {
+        WIDTH: 30% !important;
+        display: table-cell;
+        border-collapse: separate;
+        border-spacing: 5px;
+    }
+    .col-35 {
+        WIDTH: 35% !important;
+        display: table-cell;
+        border-collapse: separate;
+        border-spacing: 5px;
+    }
+    .col-35 div {
+        margin-bottom: 5px;
+    }
+    .col-35 div:last-child {
+        margin-bottom: 0;
+        margin: 0 !important;
+    }
+    .alinhamento-central {
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .alinhamento-direita {
+        text-align: right;
+        align-content: right;
+        align-items: right;
+        align-self: right;
+    }
+    .alinhamento-esquerda {
+        text-align: left;
+        align-content: left;
+        align-items: left;
+        align-self: left;
+    }
+    .titulo {
+        font-size: large;
+        font-weight: bold;
+    }
+    .tituloconteudo {
+        font-weight: bold;
+        font-size: xxx-large;
+    }
+    .titulo1 {
+        font-weight: bold;
+        /* background: lightgray; */
+        font-size: large;
+        border-radius: 5px 0 0 0;
+    }
+    .localproposta {
+        font-weight: 500;
+    }
+    .linha-fina {
+        width: 70%;
+        margin: 1vh 15%;
+        height: 1px;
+        background: white;
+    }
+    .conteudo1 {
+        font-weight: bold;
+        background: lightgray;
+        font-size: large;
+        vertical-align: top;
+        padding: 4px;
+    }
+    .conteudo2 {
+        color: white;
+        background: #6fb84f;
+        padding: 2vh 5%;
+        border-radius: 5px;
+        vertical-align: middle;
+        font-weight: bold;
+    }
+    .conteudo3 {
+        color: white;
+        padding: 2vh 5%;
+        vertical-align: middle;
+        background: #1f4c75;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    .botoescel {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .botoescel {
+        margin-top: 3vh !important;
+        margin-bottom: 6vh !important;
+    }
+    .tabs {
+        display: inline-flex;
+    }
+    .tituloGrande {
+        display: none;
+    }
+    #app-bar {
+        background: #1f4c75 !important;
+    }
+    #sec-bids {
+        height: 100vh !important;
+        overflow-x: hidden;
+        padding-top: 50px;
+        padding-left: 5%;
+        overflow-y: auto;
+        padding-right: 5%;
+        background-image: url("../../imgs/fundoparceiros.png");
+    }
+    .button1 {
+        height: 30px !important;
+        position: absolute;
+        left: 15%;
+        width: 40% !important;
+        font-weight: 600;
+        font-size: x-small;
+    }
+    .button1 span {
+        position: absolute;
+        top: 15px;
+        justify-self: right;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .button2 {
+        height: 30px !important;
+        position: absolute;
+        right: 15%;
+        width: 40% !important;
+        font-weight: 600;
+        font-size: x-small;
+    }
+    .button2 span {
+        position: absolute;
+        top: 15px;
+        justify-self: right;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .tab-link-active {
+        border-radius: 25px !important;
+        background: linear-gradient(to top, #3ebf04, #8ef85d) !important;
+    }
+    .tab-link {
+        border-radius: 25px !important;
+        background-color: white;
+    }
+    .card {
+        min-width: 90vw !important;
+        padding: 4px !important;
+        width: 100%;
+        display: table;
+        margin: 0 !important;
+        border-collapse: separate;
+        border-spacing: 5px;
+    }
+    .row {
+        width: 100%;
+        margin: 0;
+    }
+    .rowlinha {
+        margin: 1vh 0;
+        display: table-row;
+    }
+    .col-30 {
+        WIDTH: 30% !important;
+        display: table-cell;
+        border-collapse: separate;
+        border-spacing: 5px;
+    }
+    .col-35 {
+        WIDTH: 35% !important;
+        display: table-cell;
+        border-collapse: separate;
+        border-spacing: 5px;
+    }
+    .col-35 div {
+        margin-bottom: 5px;
+    }
+    .col-35 div:last-child {
+        margin-bottom: 0;
+        margin: 0 !important;
+    }
+    .alinhamento-central {
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .alinhamento-direita {
+        text-align: right;
+        align-content: right;
+        align-items: right;
+        align-self: right;
+    }
+    .alinhamento-esquerda {
+        text-align: left;
+        align-content: left;
+        align-items: left;
+        align-self: left;
+    }
+    .titulo {
+        font-size: large;
+        font-weight: bold;
+    }
+    .tituloconteudo {
+        font-weight: bold;
+        font-size: xxx-large;
+    }
+    .titulo1 {
+        font-weight: bold;
+        /* background: lightgray; */
+        font-size: large;
+        border-radius: 5px 0 0 0;
+    }
+    .localproposta {
+        font-weight: 500;
+    }
+    .linha-fina {
+        width: 70%;
+        margin: 1vh 15%;
+        height: 1px;
+        background: white;
+    }
+    .conteudo1 {
+        font-weight: bold;
+        background: lightgray;
+        font-size: large;
+        vertical-align: top;
+        padding: 4px;
+    }
+    .conteudo2 {
+        color: white;
+        background: #6fb84f;
+        padding: 2vh 5%;
+        border-radius: 5px;
+        vertical-align: middle;
+        font-weight: bold;
+    }
+    .conteudo3 {
+        color: white;
+        padding: 2vh 5%;
+        vertical-align: middle;
+        background: #1f4c75;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+}
+
+.small {
+    font-size: x-small;
+}
+
+.bloco {
+    max-height: 65vh !important;
+    overflow-y: auto;
+}
+
+#cardBidsEtanol,
+#cardBidsAcucar {
+    display: inline-table !important;
+    /* padding-top: 5vh !important; */
+}
+
+.titulocard,
+.titulocard {
+    /* position: absolute;
+    left: 0; */
+    padding: 4px;
+    /* top: 0;
+    width: 100%;
+    display: flex; */
+}
+
+.vermelho .marcador {
+    background: red;
+    /* position: absolute; */
+    width: 12px;
+    height: 12px;
+    /* margin: 7px 9px; */
+    border-radius: 50%;
+}

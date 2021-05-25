@@ -1,0 +1,3603 @@
+@media screen and (min-width: 900px) {
+  .clearfix {
+    clear: both;
+  }
+
+  .z-depth-0 {
+    box-shadow: none !important;
+  }
+
+  /* 2dp elevation modified*/
+  .z-depth-1,
+#sec-funciona .cellphone .apk .content .apk-row .button .img {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .z-depth-1-half {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  }
+
+  /* 6dp elevation modified*/
+  .z-depth-2 {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  }
+
+  /* 12dp elevation modified*/
+  .z-depth-3,
+#sec-funciona .cellphone .apk .content .apk-row .button .img:hover {
+    box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+  }
+
+  /* 16dp elevation */
+  .z-depth-4 {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
+  }
+
+  /* 24dp elevation */
+  .z-depth-5 {
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+  }
+
+  .hoverable {
+    transition: box-shadow 0.25s;
+  }
+
+  .hoverable:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: color("grey", "lighten-2");
+  }
+
+  .inline-flex {
+    display: inline-flex;
+  }
+
+  /*# sourceMappingURL=style.css.map */
+}
+@media screen and (min-width: 900px) and (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 900px) and (min-width: 1024px) and (max-width: calc(1200px - 1px)) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: calc(1024px - 1px)) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: calc(576px - 1px)) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  @font-face {
+    font-family: "Segoe";
+    src: url("../webfonts/segoe-ui.otf");
+  }
+}
+@media screen and (min-width: 900px) {
+  *,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: "Segoe";
+  }
+}
+@media screen and (min-width: 900px) {
+  body {
+    font-family: "Segoe";
+    font-size: 16px;
+    margin: 0;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 900px) {
+  body.loading {
+    overflow: hidden !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  #pre-loader {
+    width: 100vw;
+    height: 100vh;
+    z-index: 101;
+    position: sticky;
+    background-image: url("../../imgs/preloader.gif");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #modal-download {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    z-index: 900;
+    width: 300px;
+    height: 200px;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 900px) and (min-width: 1024px) and (max-width: calc(1200px - 1px)) {
+  #modal-download {
+    width: 320px;
+    bottom: 70px;
+  }
+}
+@media screen and (min-width: 900px) and (min-width: 1200px) {
+  #modal-download {
+    width: 340px;
+    bottom: 70px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #modal-download .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 35px 10px 10px 10px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #modal-download .content .btn {
+    position: absolute;
+    display: block;
+    top: 15px;
+    right: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 900px) {
+  #modal-download .content .title {
+    text-align: center;
+    font-weight: bold;
+    color: #1e4d6d;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #modal-download .content img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #modal {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 102;
+    margin-bottom: -100vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #modal .content {
+    z-index: 101;
+    position: absolute;
+    background-color: rgba(27, 94, 32, 0.9);
+    border-radius: 20px;
+    min-height: 50vh;
+    box-shadow: 0px 0px 10px black;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: calc(1024px - 1px)) {
+  #modal .content {
+    width: 90vw;
+    height: 65vh;
+    top: 15vh;
+    left: 5vw;
+    min-height: 330px;
+  }
+}
+@media screen and (min-width: 900px) and (min-width: 1024px) and (max-width: calc(1200px - 1px)) {
+  #modal .content {
+    width: 50vw;
+    height: 50vh;
+    top: 25vh;
+    left: 25vw;
+  }
+}
+@media screen and (min-width: 900px) and (min-width: 1200px) {
+  #modal .content {
+    width: 50vw;
+    height: 50vh;
+    top: 25vh;
+    left: 25vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  #modal .content .title {
+    background-color: #4caf50;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    text-align: center;
+    text-shadow: 2px 2px #1b5e20;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #modal .content .text {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    height: 46vh;
+    margin: 5px;
+    overflow: scroll;
+    padding: 5px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 900px) {
+  #modal .content button {
+    bottom: 10px;
+    left: calc(45vw - 45px);
+    position: absolute;
+    width: 90px;
+    background-color: transparent;
+    border-radius: 2px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: "Muli", sans-serif;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: all ease 0.5s;
+  }
+}
+@media screen and (min-width: 900px) {
+  #modal .content button:hover {
+    background-color: #43a047;
+    border-color: #43a047;
+  }
+}
+@media screen and (min-width: 900px) {
+  #app-bar {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background: transparent;
+    z-index: 1;
+    transition: 500ms;
+    top: 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  #app-bar.top {
+    top: 0px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    transition: 500ms;
+  }
+}
+@media screen and (min-width: 900px) {
+  #app-bar .agritrade {
+    position: fixed;
+    left: 10%;
+    top: 5px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #app-bar .linkedin {
+    position: fixed;
+    right: 10%;
+    top: 5px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #app-bar #menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 900px) {
+  #app-bar #menu > li {
+    display: inline;
+  }
+}
+@media screen and (min-width: 900px) and (min-width: 1200px) {
+  #app-bar #menu > li > a.icon {
+    display: none;
+  }
+}
+@media screen and (min-width: 900px) and (min-width: 1024px) and (max-width: calc(1200px - 1px)) {
+  #app-bar #menu > li > a.icon {
+    display: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #app-bar #menu > li > a {
+    padding: 10px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12pt;
+    font-weight: 900;
+    display: inline-block;
+    zoom: 1;
+  }
+}
+@media screen and (min-width: 900px) {
+  #app-bar #menu > li.active > a {
+    color: #56ca27;
+    font-size: 13pt;
+  }
+}
+@media screen and (min-width: 900px) {
+  #bg-parallax {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../imgs/agritrade-acucar-etanol.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+@media screen and (min-width: 900px) {
+  .section {
+    padding-top: 80px;
+    background-size: cover;
+    background-position: center;
+    outline: 4px solid rgba(30, 77, 109, 0.6);
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-home {
+    padding-top: 0px !important;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-home .blocoInformacoes {
+    text-align: left;
+    width: 50%;
+    margin-left: 40%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-home .blocoInformacoes .row {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-home .blocoInformacoes img {
+    width: 98%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-home .blocoInformacoes .tituloBranco {
+    padding-top: 25vh;
+    font-size: 30pt;
+    margin-bottom: 0;
+    color: white;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-home .blocoInformacoes .tituloVerde {
+    padding-top: 7vh;
+    margin-top: 0;
+    padding-bottom: 5vh;
+    font-size: 20pt;
+    color: #56ca27;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-home .blocoInformacoes .branco {
+    color: white;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-home .whats {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-modelo {
+    background-color: transparent;
+    background-image: url("../../imgs/fundo_modelo.jpg");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-modelo #wrapper {
+    text-align: center;
+    display: inline-flex;
+    flex-flow: column;
+    height: 220px;
+    margin-top: calc(50vh - 200px);
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-modelo #wrapper .title {
+    font-size: 3.2rem;
+    padding-left: 5px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-modelo #wrapper .title img {
+    background-color: #dcdcdce3;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-modelo #wrapper #stores {
+    display: inline-block;
+    text-align: center;
+    height: 70px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-modelo #wrapper #stores img {
+    display: inline-block;
+    height: 56px;
+    margin: 5px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-modelo #wrapper #web {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-modelo #wrapper #web img {
+    height: 65px;
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-projeto {
+    background-image: url("../../imgs/fundo_cana.jpg");
+    background-size: cover;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-projeto > .container > .row:first-of-type() .title {
+    color: #FFF;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    text-align: center;
+    text-shadow: 4px 4px #1b5e20;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-projeto > .container > .row:last-of-type() > div > .wrapper {
+    background-color: rgba(27, 94, 32, 0.6);
+    border-radius: 20px;
+    box-sizing: border-box;
+    min-height: 50vh;
+    box-shadow: 0px 0px 10px black;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-projeto > .container > .row:last-of-type() > div > .wrapper .title {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 15px 10px;
+    width: 100%;
+    background-color: #4caf50;
+    text-shadow: 2px 2px #1b5e20;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-projeto > .container > .row:last-of-type() > div > .wrapper .text {
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens {
+    background-color: #DBDCE2;
+    background-size: 50% auto;
+    background-position: left center;
+    background-image: url("../../imgs/cana.png");
+    background-repeat: no-repeat;
+    padding-top: 15vh;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes {
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente {
+    height: 13vh;
+    background-color: #1E4E7D;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    border: 3px solid #1E4E7D;
+    position: relative;
+    padding-left: 14vh;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente .descricao {
+    display: inline-block;
+    padding-right: 5vh;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #FFF;
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente .descricao .title {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente .descricao .text {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente .avatar {
+    position: absolute;
+    left: 0;
+    border-radius: 100px;
+    height: 13vh;
+    width: 13vh;
+    background-size: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(1) {
+    background-color: #f44336;
+    border-color: #f44336;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(1) .avatar {
+    background-image: url("../../imgs/person1.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(2) {
+    background-color: #9c27b0;
+    border-color: #9c27b0;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(2) .avatar {
+    background-image: url("../../imgs/person2.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(3) {
+    background-color: #3f51b5;
+    border-color: #3f51b5;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(3) .avatar {
+    background-image: url("../../imgs/person3.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(4) {
+    background-color: #2196f3;
+    border-color: #2196f3;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(4) .avatar {
+    background-image: url("../../imgs/person4.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(5) {
+    background-color: #009688;
+    border-color: #009688;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(5) .avatar {
+    background-image: url("../../imgs/person5.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens #van-title {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 3px 3px #1b5e20;
+    color: white;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens .negocios {
+    vertical-align: middle;
+    height: auto;
+    width: 96%;
+    margin-top: 5vh;
+    float: left;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-vantagens .row > div:last-of-type {
+    text-align: right;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona {
+    background-image: url("../../imgs/fundo_campo.jpg");
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone {
+    background-image: url("../../imgs/celular.png");
+    height: 615px;
+    width: 320px;
+    position: relative;
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: calc(1024px - 1px)) {
+  #sec-funciona .cellphone {
+    background-image: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk {
+    position: absolute;
+    background-color: #dbdce2;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 475px;
+    width: 285px;
+    top: 67px;
+    left: 17px;
+    -webkit-box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.6);
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .toolbar {
+    background-color: #1E4E7D;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.6);
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .toolbar i {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .toolbar .logo {
+    max-height: 35px;
+    margin-top: 7px;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content {
+    height: calc(100% - 50px);
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row {
+    flex: 0 1 auto;
+    display: flex;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .title {
+    color: #1E4E7D;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-1 {
+    max-width: 8.3333333333%;
+    min-width: 8.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-2 {
+    max-width: 16.6666666667%;
+    min-width: 16.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-3 {
+    max-width: 25%;
+    min-width: 25%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-4 {
+    max-width: 33.3333333333%;
+    min-width: 33.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-5 {
+    max-width: 41.6666666667%;
+    min-width: 41.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-6 {
+    max-width: 50%;
+    min-width: 50%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-7 {
+    max-width: 58.3333333333%;
+    min-width: 58.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-8 {
+    max-width: 66.6666666667%;
+    min-width: 66.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-9 {
+    max-width: 75%;
+    min-width: 75%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-10 {
+    max-width: 83.3333333333%;
+    min-width: 83.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-11 {
+    max-width: 91.6666666667%;
+    min-width: 91.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-12 {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-1 {
+    max-width: 8.3333333333%;
+    min-width: 8.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-2 {
+    max-width: 16.6666666667%;
+    min-width: 16.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-3 {
+    max-width: 25%;
+    min-width: 25%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-4 {
+    max-width: 33.3333333333%;
+    min-width: 33.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-5 {
+    max-width: 41.6666666667%;
+    min-width: 41.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-6 {
+    max-width: 50%;
+    min-width: 50%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-7 {
+    max-width: 58.3333333333%;
+    min-width: 58.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-8 {
+    max-width: 66.6666666667%;
+    min-width: 66.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-9 {
+    max-width: 75%;
+    min-width: 75%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-10 {
+    max-width: 83.3333333333%;
+    min-width: 83.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-11 {
+    max-width: 91.6666666667%;
+    min-width: 91.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-12 {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-1 {
+    max-width: 8.3333333333%;
+    min-width: 8.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-2 {
+    max-width: 16.6666666667%;
+    min-width: 16.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-3 {
+    max-width: 25%;
+    min-width: 25%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-4 {
+    max-width: 33.3333333333%;
+    min-width: 33.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-5 {
+    max-width: 41.6666666667%;
+    min-width: 41.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-6 {
+    max-width: 50%;
+    min-width: 50%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-7 {
+    max-width: 58.3333333333%;
+    min-width: 58.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-8 {
+    max-width: 66.6666666667%;
+    min-width: 66.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-9 {
+    max-width: 75%;
+    min-width: 75%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-10 {
+    max-width: 83.3333333333%;
+    min-width: 83.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-11 {
+    max-width: 91.6666666667%;
+    min-width: 91.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-12 {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-1 {
+    max-width: 8.3333333333%;
+    min-width: 8.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-2 {
+    max-width: 16.6666666667%;
+    min-width: 16.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-3 {
+    max-width: 25%;
+    min-width: 25%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-4 {
+    max-width: 33.3333333333%;
+    min-width: 33.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-5 {
+    max-width: 41.6666666667%;
+    min-width: 41.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-6 {
+    max-width: 50%;
+    min-width: 50%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-7 {
+    max-width: 58.3333333333%;
+    min-width: 58.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-8 {
+    max-width: 66.6666666667%;
+    min-width: 66.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-9 {
+    max-width: 75%;
+    min-width: 75%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-10 {
+    max-width: 83.3333333333%;
+    min-width: 83.3333333333%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-11 {
+    max-width: 91.6666666667%;
+    min-width: 91.6666666667%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-12 {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .button {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .button label {
+    margin-top: 5px;
+    display: inline-flex;
+    font-size: 0.8rem;
+    line-height: 13px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .button .img {
+    background-color: white;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform ease 0.5s;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content .apk-row .button .img:hover {
+    transform: scale(1.3);
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(2) > div:nth-child(1) .button .img {
+    background-image: url("../../imgs/apk_button_1.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(2) > div:nth-child(2) .button .img {
+    background-image: url("../../imgs/apk_button_2.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(2) > div:nth-child(3) .button .img {
+    background-image: url("../../imgs/apk_button_3.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(3) > div:nth-child(1) .button .img {
+    background-image: url("../../imgs/apk_button_4.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(3) > div:nth-child(2) .button .img {
+    background-image: url("../../imgs/apk_button_5.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(3) > div:nth-child(3) .button .img {
+    background-image: url("../../imgs/apk_button_6.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(4) > div:nth-child(1) .button .img {
+    background-image: url("../../imgs/apk_button_7.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(4) > div:nth-child(2) .button .img {
+    background-image: url("../../imgs/apk_button_8.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(4) > div:nth-child(3) .button .img {
+    background-image: url("../../imgs/apk_button_9.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(5) > div:nth-child(1) .button .img {
+    background-image: url("../../imgs/apk_button_10.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(5) > div:nth-child(2) .button .img {
+    background-image: url("../../imgs/apk_button_11.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(5) > div:nth-child(3) .button .img {
+    background-image: url("../../imgs/apk_button_12.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone-extension {
+    display: inline-block;
+    height: 475px;
+    width: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #ffffff;
+    position: relative;
+    top: 70px;
+    left: -10px;
+    z-index: 1;
+    overflow: hidden;
+    transition: width ease 1s;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: calc(1024px - 1px)) {
+  #sec-funciona .cellphone-extension {
+    display: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone-extension.active {
+    width: calc(98% - 320px) !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone-extension.active .wrap-title .title {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone-extension.active .wrap-text .text {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone-extension .wrap-title {
+    border-top-right-radius: 50px;
+    background-color: #1E4E7D;
+    height: auto;
+    text-align: center;
+    padding: 1.5rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone-extension .wrap-title .title {
+    color: #ffffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    position: relative;
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone-extension .wrap-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(475px - 90px);
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona .cellphone-extension .wrap-text .text {
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato {
+    background-image: url("../../imgs/fundo_contato.png");
+    padding-top: 80px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato .container {
+    width: 35%;
+    margin: 10vh 8%;
+    color: #ffffff;
+    font-size: 12pt;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato .title {
+    font-size: 20pt;
+    color: #ffffff;
+    text-align: left;
+    border-bottom: 1px solid white;
+    margin-bottom: 10vh;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato .titulo {
+    font-size: 15pt;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    font-weight: bold;
+  }
+  #sec-contato .titulo img {
+    transform: translate(0px, 6px);
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato #form-contato .form-group {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato #form-contato .form-group textarea.form-control {
+    font-family: "Muli", sans-serif;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato #form-contato .form-group .form-control {
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -webkit-border-radius: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    height: 54px;
+    line-height: 1.42857;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato #form-contato .form-group .form-control:active {
+    border-bottom: 1px solid #fff;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato #form-contato .form-group .form-control:focus {
+    border-bottom: 1px solid #fff;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato #form-contato .form-group .form-control::-webkit-input-placeholder {
+    color: #fffFFF;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato #form-contato .form-group .form-control input:-moz-placeholder {
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato #form-contato .form-group .form-control textarea:-moz-placeholder {
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato #form-contato .form-group .btn {
+    font-family: "Muli", sans-serif;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 10px 80px;
+    margin-top: 25px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato #form-contato .form-group .btn:hover() {
+    background-color: #43a047;
+    border-color: #43a047;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato .info-wrapper .info {
+    position: relative;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato .info-wrapper .info > img {
+    display: inline-flex;
+    width: 80px;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato .info-wrapper .info .description {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    max-width: calc(100% - 100px);
+    color: #FFF;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato .info-wrapper .info .description .title {
+    font-size: 2.1rem;
+    padding-left: 5px;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-contato .info-wrapper .info .description .text {
+    padding-left: 10px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #modal {
+    position: sticky;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #bg-parallax {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #app-bar {
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: none;
+    height: 60px;
+    left: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    transition: all ease 0.7s;
+    transition: height ease 1s, background-color ease 0.7s;
+    width: 60px;
+    z-index: 1;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #app-bar.active {
+    background-color: #1E4E7D;
+    border-radius: 0px;
+    height: auto;
+    min-height: 300px;
+    overflow: auto;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #app-bar.active #menu > li:first-of-type() > a {
+    background-color: transparent;
+    border: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #app-bar #menu {
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #app-bar #menu > li:first-of-type() {
+    display: block;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #app-bar #menu > li:first-of-type() > a {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    zoom: 1;
+    float: left;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #app-bar #menu > li:first-of-type().active > a {
+    color: #56ca27;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #app-bar #menu > li:not(:first-of-type()) {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive .section {
+    outline: none;
+    padding-top: 0px;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-funciona {
+    height: 100vh !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-funciona .cellphone .apk {
+    top: calc(50vh - 238px);
+    left: calc(50vw - 135px);
+    box-sizing: content-box;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-modelo {
+    background-image: url("../../imgs/fundo_modelo.jpg");
+    height: 100vh !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-modelo #wrapper {
+    text-align: center;
+    display: inline-flex;
+    flex-flow: column;
+    height: 220px;
+    margin-top: calc(50vh - 200px);
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-modelo #wrapper .title {
+    text-align: left;
+    font-size: 3.2rem;
+    padding-left: 5px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-modelo #wrapper #stores {
+    display: block;
+    text-align: center;
+    height: auto;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-modelo #wrapper #stores img {
+    display: block;
+    max-height: 65px;
+    padding: 0px 5px;
+    margin: 5px 0px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-modelo #wrapper #web {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-modelo #wrapper #web img {
+    max-height: 65px;
+    padding: 0px 5px;
+    max-width: 100%;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-projeto {
+    background-image: url("../../imgs/fundo_cana.jpg");
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-projeto #pro-title {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-projeto .wrapper {
+    margin: 10px 5px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-vantagens {
+    padding-top: 0px;
+    background-image: url("../../imgs/cana.png");
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-vantagens #van-title {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 3px #1b5e20;
+    color: white;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-vantagens .negocios {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-vantagens #wrapper-clientes .cliente {
+    height: auto;
+    min-height: 14vh;
+    border-radius: 50px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: calc(576px - 1px)) {
+  .fp-responsive #sec-vantagens #wrapper-clientes .cliente {
+    border-radius: 40px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-funciona {
+    background-image: url("../../imgs/fundo_campo.jpg");
+    min-height: 600px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-funciona #fun-title {
+    padding-top: 15px;
+    font-weight: 800;
+    color: #FFF;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 4px 4px #1b5e20;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-funciona .cellphone {
+    height: auto;
+    width: auto;
+    position: initial;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-funciona .cellphone .apk {
+    position: relative;
+    top: 15px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-contato {
+    padding-top: 0px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-contato .info-wrapper {
+    padding-top: 15px;
+    padding-left: 5px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fp-responsive #sec-contato .info-wrapper .info .title {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 900px) {
+  @-webkit-keyframes focus {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+}
+@media screen and (min-width: 900px) {
+  @-moz-keyframes focus {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+}
+@media screen and (min-width: 900px) {
+  @-ms-keyframes focus {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+}
+@media screen and (min-width: 900px) {
+  @keyframes focus {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-parceiros {
+    padding: 7vh 10%;
+    padding-top: 20vh;
+    background-image: url("../../imgs/fundoparceiros.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #sec-parceiros .celular {
+    display: none;
+  }
+  #sec-parceiros .row {
+    box-shadow: 15px 10px 10px 5px rgba(0, 0, 0, 0.14);
+    border-radius: 45px;
+  }
+  #sec-parceiros .branco {
+    border-radius: 16px !important;
+    background: white;
+    margin: 2vh 0;
+    margin-top: 7vh;
+    padding: 2vh 12px;
+    padding-bottom: 5vh;
+  }
+  #sec-parceiros .branco .row {
+    box-shadow: none !important;
+  }
+  #sec-parceiros .branco .titulo {
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+    padding-bottom: 3vh !important;
+    color: #131636;
+  }
+  #sec-parceiros .branco .col-9 {
+    border-left: 2px solid #131636;
+    width: 80%;
+  }
+  #sec-parceiros .branco .col-9 a {
+    width: 25% !important;
+  }
+  #sec-parceiros .branco .col-3 {
+    text-align: center;
+    width: 20% !important;
+  }
+  #sec-parceiros .branco .col-3 img {
+    width: auto;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-funciona {
+    padding: 7vh 10%;
+    background-image: url("../../imgs/fundoparceiros.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+  }
+  #sec-funciona .tituloBranco {
+    padding-top: 15vh;
+    font-size: 15pt;
+    color: white;
+    font-weight: bold;
+  }
+  #sec-funciona .col-50 {
+    width: 35vw;
+  }
+  #sec-funciona .col-10 {
+    font-weight: bold;
+    font-size: 50pt;
+    color: yellowgreen;
+  }
+  #sec-funciona .col-80 {
+    padding: 0 5%;
+  }
+  #sec-funciona .informativo {
+    padding: 5px 2%;
+    width: 100%;
+    font-size: large;
+    border-bottom: solid 1px white;
+  }
+  #sec-funciona .btnAssistir {
+    width: 40% !important;
+    color: white;
+    border: solid 1px white;
+    border-radius: 16px;
+    padding: 2px 10%;
+    text-align: center;
+    position: relative;
+    left: 60%;
+    top: 10%;
+    text-decoration: none;
+  }
+  #sec-funciona iframe {
+    margin: 0 5%;
+    width: 90%;
+    height: 80vh;
+    background-color: black;
+    border-radius: 16px;
+  }
+  #sec-funciona .celular {
+    display: none;
+  }
+}
+@media screen and (min-width: 900px) {
+  #sec-planilha {
+    padding-top: 20vh;
+    background-image: url("../../imgs/fundoparceiros.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #sec-planilha .row {
+    width: 100%;
+    height: 90vh;
+  }
+  #sec-planilha .row .col-9 {
+    width: 60%;
+  }
+  #sec-planilha .row .col-9 img {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #sec-planilha .row .col-3 {
+    width: 35%;
+  }
+  #sec-planilha .row .col-3 img {
+    width: 70%;
+    margin-left: 15%;
+  }
+  #sec-planilha .row .col-3 .branco {
+    color: white;
+    padding: 7px;
+    text-align: center;
+    font-size: large;
+  }
+  #sec-planilha .row .col-3 .verde {
+    font-weight: bold;
+    font-size: x-large;
+    color: #56ca27;
+    text-align: center;
+    padding: 15px 7px;
+    padding-top: 10vh;
+    border-bottom: #56ca27 solid 1px;
+    margin-bottom: 15px;
+  }
+  #sec-planilha .row .col-3 .botao {
+    font-weight: bold !important;
+    font-size: large;
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 15%;
+    color: white !important;
+    background: linear-gradient(to left, #40a01a, #56ca27);
+    padding: 7px;
+  }
+}
+.section {
+  height: 100vh !important;
+}
+
+@media screen and (max-width: calc(900px - 1px)) {
+  .clearfix {
+    clear: both;
+  }
+
+  .z-depth-0 {
+    box-shadow: none !important;
+  }
+
+  /* 2dp elevation modified*/
+  .z-depth-1,
+#sec-funciona .cellphone .apk .content .apk-row .button .img {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .z-depth-1-half {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  }
+
+  /* 6dp elevation modified*/
+  .z-depth-2 {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  }
+
+  /* 12dp elevation modified*/
+  .z-depth-3,
+#sec-funciona .cellphone .apk .content .apk-row .button .img:hover {
+    box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+  }
+
+  /* 16dp elevation */
+  .z-depth-4 {
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
+  }
+
+  /* 24dp elevation */
+  .z-depth-5 {
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+  }
+
+  .hoverable {
+    transition: box-shadow 0.25s;
+  }
+
+  .hoverable:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: color("grey", "lighten-2");
+  }
+
+  .inline-flex {
+    display: inline-flex;
+  }
+
+  /*# sourceMappingURL=style.css.map */
+}
+@media screen and (max-width: calc(900px - 1px)) and (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (min-width: 1024px) and (max-width: calc(1200px - 1px)) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (max-width: calc(1024px - 1px)) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (max-width: calc(576px - 1px)) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  @font-face {
+    font-family: "Segoe";
+    src: url("../webfonts/segoe-ui.otf");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  *,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: "Segoe";
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  body {
+    font-family: "Segoe";
+    font-size: 16px;
+    margin: 0;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  body.loading {
+    overflow: hidden !important;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #pre-loader {
+    width: 100vw;
+    height: 100vh;
+    z-index: 101;
+    position: sticky;
+    background-image: url("../../imgs/preloader.gif");
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #modal-download {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    z-index: 900;
+    width: 300px;
+    height: 200px;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (min-width: 1024px) and (max-width: calc(1200px - 1px)) {
+  #modal-download {
+    width: 320px;
+    bottom: 70px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (min-width: 1200px) {
+  #modal-download {
+    width: 340px;
+    bottom: 70px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #modal-download .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 35px 10px 10px 10px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #modal-download .content .btn {
+    position: absolute;
+    display: block;
+    top: 15px;
+    right: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #modal-download .content .title {
+    text-align: center;
+    font-weight: bold;
+    color: #1e4d6d;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #modal-download .content img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #modal {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 102;
+    margin-bottom: -100vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #modal .content {
+    z-index: 101;
+    position: absolute;
+    background-color: rgba(27, 94, 32, 0.9);
+    border-radius: 20px;
+    min-height: 50vh;
+    box-shadow: 0px 0px 10px black;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (max-width: calc(1024px - 1px)) {
+  #modal .content {
+    width: 90vw;
+    height: 65vh;
+    top: 15vh;
+    left: 5vw;
+    min-height: 330px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (min-width: 1024px) and (max-width: calc(1200px - 1px)) {
+  #modal .content {
+    width: 50vw;
+    height: 50vh;
+    top: 25vh;
+    left: 25vw;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (min-width: 1200px) {
+  #modal .content {
+    width: 50vw;
+    height: 50vh;
+    top: 25vh;
+    left: 25vw;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #modal .content .title {
+    background-color: #4caf50;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    text-align: center;
+    text-shadow: 2px 2px #1b5e20;
+    width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #modal .content .text {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    height: 46vh;
+    margin: 5px;
+    overflow: scroll;
+    padding: 5px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #modal .content button {
+    bottom: 10px;
+    left: calc(45vw - 45px);
+    position: absolute;
+    width: 90px;
+    background-color: transparent;
+    border-radius: 2px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: "Muli", sans-serif;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: all ease 0.5s;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #modal .content button:hover {
+    background-color: #43a047;
+    border-color: #43a047;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #app-bar {
+    position: fixed;
+    height: 60px;
+    width: 100% !important;
+    background: transparent;
+    z-index: 1;
+    transition: 500ms;
+    top: 0;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #app-bar.top {
+    top: 0px;
+    background: none;
+    width: 100% !important;
+    transition: 500ms;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #app-bar .agritrade {
+    position: fixed;
+    left: 10%;
+    top: 5px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #app-bar .linkedin {
+    position: fixed;
+    right: 5%;
+    top: 7px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #app-bar #menu {
+    position: fixed;
+    left: 5%;
+    top: 7px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #app-bar #menu > li {
+    display: inline;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (min-width: 1200px) {
+  #app-bar #menu > li > a.icon {
+    display: none;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (min-width: 1024px) and (max-width: calc(1200px - 1px)) {
+  #app-bar #menu > li > a.icon {
+    display: none;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #app-bar #menu > li > a {
+    padding: 10px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12pt;
+    font-weight: 900;
+    display: inline-block;
+    zoom: 1;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #app-bar #menu > li.active > a {
+    color: #56ca27;
+    font-size: 13pt;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #bg-parallax {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../imgs/FundoCelInicio.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .section {
+    padding-top: 80px;
+    background-size: cover;
+    background-position: center;
+    outline: 4px solid rgba(30, 77, 109, 0.6);
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-home {
+    padding-top: 0px !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-home .blocoInformacoes {
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-home .blocoInformacoes .row {
+    width: 70%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-home .blocoInformacoes img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-home .blocoInformacoes .tituloBranco {
+    padding-top: 15vh;
+    font-size: 15pt;
+    color: white;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-home .blocoInformacoes .tituloVerde {
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    font-size: 12pt;
+    color: #56ca27;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-home .blocoInformacoes .branco {
+    color: white;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-home .whats {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-modelo {
+    background-color: transparent;
+    background-image: url("../../imgs/fundo_modelo.jpg");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-modelo #wrapper {
+    text-align: center;
+    display: inline-flex;
+    flex-flow: column;
+    height: 220px;
+    margin-top: calc(50vh - 200px);
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-modelo #wrapper .title {
+    font-size: 3.2rem;
+    padding-left: 5px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-modelo #wrapper .title img {
+    background-color: #dcdcdce3;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-modelo #wrapper #stores {
+    display: inline-block;
+    text-align: center;
+    height: 70px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-modelo #wrapper #stores img {
+    display: inline-block;
+    height: 56px;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-modelo #wrapper #web {
+    width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-modelo #wrapper #web img {
+    height: 65px;
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-projeto {
+    background-image: url("../../imgs/fundo_cana.jpg");
+    background-size: cover;
+    text-align: center;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-projeto > .container > .row:first-of-type() .title {
+    color: #FFF;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    text-align: center;
+    text-shadow: 4px 4px #1b5e20;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-projeto > .container > .row:last-of-type() > div > .wrapper {
+    background-color: rgba(27, 94, 32, 0.6);
+    border-radius: 20px;
+    box-sizing: border-box;
+    min-height: 50vh;
+    box-shadow: 0px 0px 10px black;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-projeto > .container > .row:last-of-type() > div > .wrapper .title {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 15px 10px;
+    width: 100%;
+    background-color: #4caf50;
+    text-shadow: 2px 2px #1b5e20;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-projeto > .container > .row:last-of-type() > div > .wrapper .text {
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens {
+    background-color: #DBDCE2;
+    background-size: 50% auto;
+    background-position: left center;
+    background-image: url("../../imgs/cana.png");
+    background-repeat: no-repeat;
+    padding-top: 15vh;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes {
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente {
+    height: 13vh;
+    background-color: #1E4E7D;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    border: 3px solid #1E4E7D;
+    position: relative;
+    padding-left: 14vh;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente .descricao {
+    display: inline-block;
+    padding-right: 5vh;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #FFF;
+    opacity: 0;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente .descricao .title {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente .descricao .text {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente .avatar {
+    position: absolute;
+    left: 0;
+    border-radius: 100px;
+    height: 13vh;
+    width: 13vh;
+    background-size: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(1) {
+    background-color: #f44336;
+    border-color: #f44336;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(1) .avatar {
+    background-image: url("../../imgs/person1.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(2) {
+    background-color: #9c27b0;
+    border-color: #9c27b0;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(2) .avatar {
+    background-image: url("../../imgs/person2.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(3) {
+    background-color: #3f51b5;
+    border-color: #3f51b5;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(3) .avatar {
+    background-image: url("../../imgs/person3.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(4) {
+    background-color: #2196f3;
+    border-color: #2196f3;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(4) .avatar {
+    background-image: url("../../imgs/person4.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(5) {
+    background-color: #009688;
+    border-color: #009688;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #wrapper-clientes .cliente:nth-child(5) .avatar {
+    background-image: url("../../imgs/person5.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens #van-title {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 3px 3px #1b5e20;
+    color: white;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens .negocios {
+    vertical-align: middle;
+    height: auto;
+    width: 96%;
+    margin-top: 5vh;
+    float: left;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-vantagens .row > div:last-of-type {
+    text-align: right;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona {
+    background-image: url("../../imgs/fundo_campo.jpg");
+    background-size: cover;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone {
+    background-image: url("../../imgs/celular.png");
+    height: 615px;
+    width: 320px;
+    position: relative;
+    z-index: 2;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (max-width: calc(1024px - 1px)) {
+  #sec-funciona .cellphone {
+    background-image: none;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk {
+    position: absolute;
+    background-color: #dbdce2;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 475px;
+    width: 285px;
+    top: 67px;
+    left: 17px;
+    -webkit-box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.6);
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .toolbar {
+    background-color: #1E4E7D;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.6);
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .toolbar i {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .toolbar .logo {
+    max-height: 35px;
+    margin-top: 7px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content {
+    height: calc(100% - 50px);
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row {
+    flex: 0 1 auto;
+    display: flex;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .title {
+    color: #1E4E7D;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-1 {
+    max-width: 8.3333333333%;
+    min-width: 8.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-2 {
+    max-width: 16.6666666667%;
+    min-width: 16.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-3 {
+    max-width: 25%;
+    min-width: 25%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-4 {
+    max-width: 33.3333333333%;
+    min-width: 33.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-5 {
+    max-width: 41.6666666667%;
+    min-width: 41.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-6 {
+    max-width: 50%;
+    min-width: 50%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-7 {
+    max-width: 58.3333333333%;
+    min-width: 58.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-8 {
+    max-width: 66.6666666667%;
+    min-width: 66.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-9 {
+    max-width: 75%;
+    min-width: 75%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-10 {
+    max-width: 83.3333333333%;
+    min-width: 83.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-11 {
+    max-width: 91.6666666667%;
+    min-width: 91.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-lg-12 {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-1 {
+    max-width: 8.3333333333%;
+    min-width: 8.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-2 {
+    max-width: 16.6666666667%;
+    min-width: 16.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-3 {
+    max-width: 25%;
+    min-width: 25%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-4 {
+    max-width: 33.3333333333%;
+    min-width: 33.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-5 {
+    max-width: 41.6666666667%;
+    min-width: 41.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-6 {
+    max-width: 50%;
+    min-width: 50%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-7 {
+    max-width: 58.3333333333%;
+    min-width: 58.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-8 {
+    max-width: 66.6666666667%;
+    min-width: 66.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-9 {
+    max-width: 75%;
+    min-width: 75%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-10 {
+    max-width: 83.3333333333%;
+    min-width: 83.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-11 {
+    max-width: 91.6666666667%;
+    min-width: 91.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-md-12 {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-1 {
+    max-width: 8.3333333333%;
+    min-width: 8.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-2 {
+    max-width: 16.6666666667%;
+    min-width: 16.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-3 {
+    max-width: 25%;
+    min-width: 25%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-4 {
+    max-width: 33.3333333333%;
+    min-width: 33.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-5 {
+    max-width: 41.6666666667%;
+    min-width: 41.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-6 {
+    max-width: 50%;
+    min-width: 50%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-7 {
+    max-width: 58.3333333333%;
+    min-width: 58.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-8 {
+    max-width: 66.6666666667%;
+    min-width: 66.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-9 {
+    max-width: 75%;
+    min-width: 75%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-10 {
+    max-width: 83.3333333333%;
+    min-width: 83.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-11 {
+    max-width: 91.6666666667%;
+    min-width: 91.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-sm-12 {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-1 {
+    max-width: 8.3333333333%;
+    min-width: 8.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-2 {
+    max-width: 16.6666666667%;
+    min-width: 16.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-3 {
+    max-width: 25%;
+    min-width: 25%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-4 {
+    max-width: 33.3333333333%;
+    min-width: 33.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-5 {
+    max-width: 41.6666666667%;
+    min-width: 41.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-6 {
+    max-width: 50%;
+    min-width: 50%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-7 {
+    max-width: 58.3333333333%;
+    min-width: 58.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-8 {
+    max-width: 66.6666666667%;
+    min-width: 66.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-9 {
+    max-width: 75%;
+    min-width: 75%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-10 {
+    max-width: 83.3333333333%;
+    min-width: 83.3333333333%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-11 {
+    max-width: 91.6666666667%;
+    min-width: 91.6666666667%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .col-xs-12 {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .button {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .button label {
+    margin-top: 5px;
+    display: inline-flex;
+    font-size: 0.8rem;
+    line-height: 13px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .button .img {
+    background-color: white;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform ease 0.5s;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content .apk-row .button .img:hover {
+    transform: scale(1.3);
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(2) > div:nth-child(1) .button .img {
+    background-image: url("../../imgs/apk_button_1.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(2) > div:nth-child(2) .button .img {
+    background-image: url("../../imgs/apk_button_2.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(2) > div:nth-child(3) .button .img {
+    background-image: url("../../imgs/apk_button_3.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(3) > div:nth-child(1) .button .img {
+    background-image: url("../../imgs/apk_button_4.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(3) > div:nth-child(2) .button .img {
+    background-image: url("../../imgs/apk_button_5.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(3) > div:nth-child(3) .button .img {
+    background-image: url("../../imgs/apk_button_6.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(4) > div:nth-child(1) .button .img {
+    background-image: url("../../imgs/apk_button_7.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(4) > div:nth-child(2) .button .img {
+    background-image: url("../../imgs/apk_button_8.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(4) > div:nth-child(3) .button .img {
+    background-image: url("../../imgs/apk_button_9.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(5) > div:nth-child(1) .button .img {
+    background-image: url("../../imgs/apk_button_10.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(5) > div:nth-child(2) .button .img {
+    background-image: url("../../imgs/apk_button_11.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone .apk .content div.apk-row:nth-child(5) > div:nth-child(3) .button .img {
+    background-image: url("../../imgs/apk_button_12.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone-extension {
+    display: inline-block;
+    height: 475px;
+    width: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #ffffff;
+    position: relative;
+    top: 70px;
+    left: -10px;
+    z-index: 1;
+    overflow: hidden;
+    transition: width ease 1s;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (max-width: calc(1024px - 1px)) {
+  #sec-funciona .cellphone-extension {
+    display: none;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone-extension.active {
+    width: calc(98% - 320px) !important;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone-extension.active .wrap-title .title {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone-extension.active .wrap-text .text {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone-extension .wrap-title {
+    border-top-right-radius: 50px;
+    background-color: #1E4E7D;
+    height: auto;
+    text-align: center;
+    padding: 1.5rem;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone-extension .wrap-title .title {
+    color: #ffffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    position: relative;
+    opacity: 0;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone-extension .wrap-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(475px - 90px);
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-funciona .cellphone-extension .wrap-text .text {
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    opacity: 0;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato {
+    background-image: url("../../imgs/FundoCelContato.png");
+    background-position: center !important;
+    padding-top: 0;
+    height: 100vh !important;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato .container {
+    width: 80%;
+    margin: 10vh 10%;
+    color: #ffffff;
+    font-size: small;
+    text-align: left;
+  }
+  #sec-contato .container a img {
+    height: 30px !important;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato .title {
+    font-size: 20pt;
+    color: #ffffff;
+    text-align: left;
+    border-bottom: 1px solid white;
+    margin-bottom: 3vh;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato .titulo {
+    font-size: 15pt;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato #form-contato .form-group {
+    text-align: center;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato #form-contato .form-group textarea.form-control {
+    font-family: "Muli", sans-serif;
+    height: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato #form-contato .form-group .form-control {
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -webkit-border-radius: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    height: 54px;
+    line-height: 1.42857;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato #form-contato .form-group .form-control:active {
+    border-bottom: 1px solid #fff;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato #form-contato .form-group .form-control:focus {
+    border-bottom: 1px solid #fff;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato #form-contato .form-group .form-control::-webkit-input-placeholder {
+    color: #fffFFF;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato #form-contato .form-group .form-control input:-moz-placeholder {
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato #form-contato .form-group .form-control textarea:-moz-placeholder {
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato #form-contato .form-group .btn {
+    font-family: "Muli", sans-serif;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 10px 80px;
+    margin-top: 25px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato #form-contato .form-group .btn:hover() {
+    background-color: #43a047;
+    border-color: #43a047;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato .info-wrapper .info {
+    position: relative;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato .info-wrapper .info > img {
+    display: inline-flex;
+    width: 80px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato .info-wrapper .info .description {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    max-width: calc(100% - 100px);
+    color: #FFF;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato .info-wrapper .info .description .title {
+    font-size: 2.1rem;
+    padding-left: 5px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-contato .info-wrapper .info .description .text {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #modal {
+    position: sticky;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #bg-parallax {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #app-bar {
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: none;
+    height: 60px;
+    left: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    transition: all ease 0.7s;
+    transition: height ease 1s, background-color ease 0.7s;
+    width: 100% !important;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #app-bar.active {
+    background-color: #1E4E7D;
+    border-radius: 0px;
+    height: auto;
+    min-height: 300px;
+    overflow: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #app-bar.active #menu > li:first-of-type() > a {
+    background-color: transparent;
+    border: none;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #app-bar #menu {
+    display: none;
+    flex-flow: column;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #app-bar #menu > li:first-of-type() {
+    display: block;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #app-bar #menu > li:first-of-type() > a {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    zoom: 1;
+    float: left;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #app-bar #menu > li:first-of-type().active > a {
+    color: #56ca27;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #app-bar #menu > li:not(:first-of-type()) {
+    text-align: left;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive .section {
+    outline: none;
+    padding-top: 0px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-funciona {
+    height: 100vh !important;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-funciona .cellphone .apk {
+    top: calc(50vh - 238px);
+    left: calc(50vw - 135px);
+    box-sizing: content-box;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-modelo {
+    background-image: url("../../imgs/fundo_modelo.jpg");
+    height: 100vh !important;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-modelo #wrapper {
+    text-align: center;
+    display: inline-flex;
+    flex-flow: column;
+    height: 220px;
+    margin-top: calc(50vh - 200px);
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-modelo #wrapper .title {
+    text-align: left;
+    font-size: 3.2rem;
+    padding-left: 5px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-modelo #wrapper #stores {
+    display: block;
+    text-align: center;
+    height: auto;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-modelo #wrapper #stores img {
+    display: block;
+    max-height: 65px;
+    padding: 0px 5px;
+    margin: 5px 0px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-modelo #wrapper #web {
+    width: 100%;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-modelo #wrapper #web img {
+    max-height: 65px;
+    padding: 0px 5px;
+    max-width: 100%;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-projeto {
+    background-image: url("../../imgs/fundo_cana.jpg");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-projeto #pro-title {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-projeto .wrapper {
+    margin: 10px 5px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-vantagens {
+    padding-top: 0px;
+    background-image: url("../../imgs/cana.png");
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-vantagens #van-title {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 3px #1b5e20;
+    color: white;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-vantagens .negocios {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: none;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-vantagens #wrapper-clientes .cliente {
+    height: auto;
+    min-height: 14vh;
+    border-radius: 50px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) and (max-width: calc(576px - 1px)) {
+  .fp-responsive #sec-vantagens #wrapper-clientes .cliente {
+    border-radius: 40px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-funciona {
+    background-image: url("../../imgs/fundo_campo.jpg");
+    min-height: 600px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-funciona #fun-title {
+    padding-top: 15px;
+    font-weight: 800;
+    color: #FFF;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 4px 4px #1b5e20;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-funciona .cellphone {
+    height: auto;
+    width: auto;
+    position: initial;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-funciona .cellphone .apk {
+    position: relative;
+    top: 15px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-contato {
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-contato .info-wrapper {
+    padding-top: 15px;
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  .fp-responsive #sec-contato .info-wrapper .info .title {
+    text-align: left;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  @-webkit-keyframes focus {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  @-moz-keyframes focus {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  @-ms-keyframes focus {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  @keyframes focus {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-parceiros {
+    padding: 15vh 10%;
+    background-image: url("../../imgs/fundoparceiros.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #sec-parceiros .site {
+    display: none;
+  }
+  #sec-parceiros .row {
+    box-shadow: 15px 10px 10px 5px rgba(0, 0, 0, 0.14);
+    border-radius: 45px;
+  }
+  #sec-parceiros .branco {
+    border-radius: 16px !important;
+    background: white;
+    margin: 2vh 0;
+    padding: 2vh 12px;
+    padding-bottom: 5vh;
+  }
+  #sec-parceiros .branco .row {
+    text-align: center;
+    box-shadow: none !important;
+  }
+  #sec-parceiros .branco .titulo {
+    font-weight: bold;
+    font-size: 15pt;
+    text-align: center;
+    color: #131636;
+    margin: 2vh 0;
+  }
+  #sec-parceiros .branco .col-9 {
+    text-align: center;
+    border-left: none;
+  }
+  #sec-parceiros .branco .col-9 .col-3 {
+    width: 50%;
+    text-align: center;
+  }
+  #sec-parceiros .branco .col-3 {
+    width: 100%;
+    text-align: center;
+  }
+  #sec-parceiros .branco .col-3 img {
+    height: 40px;
+    width: auto !important;
+    max-width: 100%;
+  }
+  #sec-parceiros img {
+    max-height: 20vw !important;
+  }
+}
+@media screen and (max-width: calc(900px - 1px)) {
+  #sec-planilha {
+    padding-top: 7vh !important;
+    background-image: url("../../imgs/fundoparceiros.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #sec-planilha .row {
+    width: 100%;
+    height: 90vh;
+  }
+  #sec-planilha .row .col-9 {
+    padding: 0 10%;
+    width: 100%;
+  }
+  #sec-planilha .row .col-9 img {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #sec-planilha .row .col-3 {
+    width: 100%;
+    padding: 0 10%;
+  }
+  #sec-planilha .row .col-3 img {
+    width: 70%;
+    margin-left: 15%;
+  }
+  #sec-planilha .row .col-3 .branco {
+    color: white;
+    padding: 7px;
+    text-align: center;
+  }
+  #sec-planilha .row .col-3 .verde {
+    font-weight: bold;
+    color: #56ca27;
+    text-align: center;
+    padding: 7px;
+    border-bottom: #56ca27 solid 1px;
+  }
+  #sec-planilha .row .col-3 .botao {
+    font-weight: bold !important;
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 15%;
+    color: white !important;
+    background: linear-gradient(to left, #40a01a, #56ca27);
+    padding: 7px;
+  }
+}
+.col-10 {
+  width: 10%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-80 {
+  width: 80%;
+}
+
+.col-90 {
+  width: 90%;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css%5D.map */
